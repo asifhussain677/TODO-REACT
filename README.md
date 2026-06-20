@@ -1,16 +1,39 @@
-# React + Vite
+# iTask Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Todo application built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add, edit, and delete tasks
+* Mark tasks as completed
+* Show or hide completed tasks
+* Persistent storage using Local Storage
+* Responsive and clean user interface
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Tailwind CSS
+* UUID
+* React Icons
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone <repository-url>
+cd itask-manager
+npm install
+npm run dev
+```
+
+## Usage
+
+* Create new tasks using the input field
+* Edit or delete existing tasks
+* Mark tasks as completed using checkboxes
+* Toggle "Show Finished" to view completed tasks
+
+## License
+
+MIT License
+
